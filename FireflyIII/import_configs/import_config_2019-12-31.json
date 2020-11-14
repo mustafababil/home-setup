@@ -1,0 +1,53 @@
+{
+    "has-headers": true,
+    "date-format": "Ymd",
+    "delimiter": ",",
+    "import-account": 257,
+    "specifics": {
+        "IngDescription": 1
+    },
+    "column-count": 9,
+    "column-roles": [
+        "date-transaction",
+        "opposing-name",
+        "account-iban",
+        "opposing-iban",
+        "_ignore",
+        "ing-debit-credit",
+        "amount",
+        "_ignore",
+        "description"
+    ],
+    "column-do-mapping": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "column-roles-complete": false,
+    "column-mapping-config": {
+        "1": {
+            "ALBERT HEIJN 1436 AMSTERDAM NLD": 303,
+            "ALBERT HEIJN 1812 AMSTERDAM NLD": 303,
+            "ALBERT HEIJN 1873 AMSTERDAM NLD": 303,
+            "ALBERT HEIJN 2988 AMSTERDAM NLD": 303,
+            "Action 1342 Amsterdam NLD": 290,
+            "Albert Heijn 1436 AMSTERDAM NLD": 303,
+            "Kruidvat 2100 AMSTERDAM NLD": 300,
+            "Kruidvat 3409 AMSTERDAM NLD": 300,
+            "Kruidvat via ING Bank": 300
+        },
+        "2": [],
+        "3": []
+    },
+    "column-mapping-complete": false,
+    "apply_rules": true,
+    "match_bills": false,
+    "file-type": "csv",
+    "apply-rules": true
+}

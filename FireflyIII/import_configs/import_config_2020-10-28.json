@@ -1,0 +1,60 @@
+{
+    "date": "Ymd",
+    "default_account": 257,
+    "delimiter": "comma",
+    "headers": true,
+    "ignore_duplicate_lines": true,
+    "ignore_duplicate_transactions": true,
+    "rules": true,
+    "skip_form": false,
+    "add_import_tag": true,
+    "specifics": [
+        "IngDescription"
+    ],
+    "roles": [
+        "date_transaction",
+        "opposing-name",
+        "account-iban",
+        "opposing-iban",
+        "_ignore",
+        "ing-debit-credit",
+        "amount",
+        "_ignore",
+        "description",
+        "_ignore",
+        "_ignore"
+    ],
+    "do_mapping": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "0": false,
+        "4": false,
+        "5": false,
+        "6": false,
+        "7": false,
+        "8": false,
+        "9": false,
+        "10": false
+    },
+    "mapping": {
+        "1": {
+            "2101 Action Leuven BEL": 290,
+            "AH Station Amstel AMSTERDAM NLD": 303,
+            "ALBERT HEIJN 1090 AMSTERDAM NLD": 303,
+            "ALBERT HEIJN 1567 AMSTERDAM NLD": 303,
+            "ALBERT HEIJN 1647 AMSTERDAM NLD": 303,
+            "ALBERT HEIJN 1873 AMSTERDAM NLD": 303,
+            "Action 1342 Amsterdam NLD": 290,
+            "Action 2095 Bierbeek BEL": 290,
+            "Albert Heijn 1027 AMSTERDAM NLD": 303,
+            "Albert Heijn 1436 AMSTERDAM NLD": 303,
+            "KRUIDVAT 8290 LEUVEN LEUVEN BEL": 300,
+            "KRUIDVAT 8375 LEUVEN LEUVEN BEL": 300,
+            "KRUIDVAT 8982 LEUVEN LEUVEN BEL": 300,
+            "Kruidvat 2100 AMSTERDAM NLD": 300,
+            "Kruidvat via ING Bank": 300
+        }
+    },
+    "version": 2
+}
