@@ -28,4 +28,5 @@ Best Cloud sync program
 - Windows steps are tested on v1.53.2
 - MacOS steps are tested on v1.53.1
 - The files or folder that shouldn't be uploaded to cloud are defined in **exclude-list.txt**.
-- Usename and password is **admin** for GUI access in browser.
+- Username and password is **admin** for GUI access in browser.
+
