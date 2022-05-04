@@ -1,0 +1,1 @@
+imapsync --host1 imaps.kuleuven.be --user1 [username] --password1 '[password]' --host2 imap.outlook.com --user2 [full-email-address] --password2 '[password]' --office2 --subfolder2 KULeuven --folderfirst 'INBOX'
